@@ -1,0 +1,8 @@
+# Ignore node_modules directory
+node_modules
+# Ignore Dockerfile and dockerignore file itself
+Dockerfile
+.dockerignore
+debug.MD
+# Do not ignore .env
+!.env
